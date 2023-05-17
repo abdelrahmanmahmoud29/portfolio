@@ -1,0 +1,570 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.nav-item {
+  position: relative;
+}
+
+/* .nav-item::after {
+  content: "";
+  width: 35px;
+  height: 2px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 80%;
+  left: 15px;
+} */
+.hov::after {
+  content: "";
+  width: 0px;
+  height: 2px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 80%;
+  left: -30px;
+  left: 15px;
+  transition: 1s all;
+}
+.hov:hover::after {
+  width: 35px;
+}
+/* end of nav bar */
+header {
+  background-image: url(imgs/intro-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  height: 100vh;
+  position: relative;
+}
+.home h1 {
+  padding-top: 85px;
+  font-size: 4.3rem;
+  color: #ffffff;
+}
+.layer {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.typedtext::before {
+  position: absolute;
+  content: "|";
+  animation-name: typing;
+  animation-duration: 13s;
+  animation-iteration-count: infinite;
+}
+@keyframes typing {
+  1% {
+    content: " c|";
+  }
+  2% {
+    content: " ce|";
+  }
+  3% {
+    content: " ceo|";
+  }
+  4% {
+    content: " ceo d|";
+  }
+  5% {
+    content: " ceo de|";
+  }
+  6% {
+    content: " ceo dev|";
+  }
+  7% {
+    content: " ceo deve|";
+  }
+  8% {
+    content: " ceo devef|";
+  }
+  9% {
+    content: " ceo devefo|";
+  }
+  10% {
+    content: " ceo devefol|";
+  }
+  11% {
+    content: " ceo devefoli|";
+  }
+  12% {
+    content: " ceo devefolio|";
+  }
+  13% {
+    content: " ceo devefolio|";
+  }
+  14% {
+    content: " ceo devefoli|";
+  }
+  15% {
+    content: " ceo devefol|";
+  }
+  16% {
+    content: " ceo devefo|";
+  }
+  17% {
+    content: " ceo devef|";
+  }
+  18% {
+    content: " ceo deve|";
+  }
+  19% {
+    content: " ceo dev|";
+  }
+  20% {
+    content: " ceo de|";
+  }
+  21% {
+    content: " ceo d|";
+  }
+  22% {
+    content: " ceo|";
+  }
+  23% {
+    content: " ce|";
+  }
+  24% {
+    content: " c|";
+  }
+  25% {
+    content: "|";
+  }
+  /* ////////////////////// */
+  /* web developer */
+  26% {
+    content: " w|";
+  }
+  27% {
+    content: " we|";
+  }
+  28% {
+    content: " web|";
+  }
+  29% {
+    content: " web D|";
+  }
+  30% {
+    content: " web De|";
+  }
+  31% {
+    content: " web Dev|";
+  }
+  32% {
+    content: " web Deve|";
+  }
+  33% {
+    content: " web Devel|";
+  }
+  34% {
+    content: " web Develo|";
+  }
+  35% {
+    content: " web Develop|";
+  }
+  36% {
+    content: " web Develope|";
+  }
+  37% {
+    content: " web Developer|";
+  }
+  38% {
+    content: " web Developer|";
+  }
+  39% {
+    content: " web Develope|";
+  }
+  40% {
+    content: " web Develop|";
+  }
+  41% {
+    content: " web Develo|";
+  }
+  42% {
+    content: " web Devel|";
+  }
+  43% {
+    content: " web Deve|";
+  }
+  44% {
+    content: " web Dev|";
+  }
+  45% {
+    content: " web De|";
+  }
+  46% {
+    content: " web D|";
+  }
+  47% {
+    content: " web |";
+  }
+  /* /////////////////////// */
+  48% {
+    content: " web D|";
+  }
+  49% {
+    content: " web De|";
+  }
+  50% {
+    content: " web Des|";
+  }
+  51% {
+    content: " web Desi|";
+  }
+  52% {
+    content: " web Desig|";
+  }
+  53% {
+    content: " web Desig|";
+  }
+  54% {
+    content: " web Design|";
+  }
+  55% {
+    content: " web Designe|";
+  }
+  56% {
+    content: " web Designer|";
+  }
+  57% {
+    content: " web Designe|";
+  }
+  58% {
+    content: " web Design|";
+  }
+  59% {
+    content: " web Desig|";
+  }
+  60% {
+    content: " web Desi|";
+  }
+  61% {
+    content: " web Des|";
+  }
+  62% {
+    content: " web De|";
+  }
+  63% {
+    content: " web D|";
+  }
+  64% {
+    content: " web |";
+  }
+  65% {
+    content: " we|";
+  }
+  66% {
+    content: " w|";
+  }
+  67% {
+    content: " |";
+  }
+  /* ////////////////////////////// */
+  68% {
+    content: " f|";
+  }
+  69% {
+    content: " fr|";
+  }
+  70% {
+    content: " fro|";
+  }
+  71% {
+    content: " fron|";
+  }
+  72% {
+    content: " front|";
+  }
+  73% {
+    content: " fronte|";
+  }
+  74% {
+    content: " fronten|";
+  }
+  75% {
+    content: " frontend|";
+  }
+  76% {
+    content: " frontend D|";
+  }
+  77% {
+    content: " frontend De|";
+  }
+  78% {
+    content: "frontend Dev|";
+  }
+  79% {
+    content: " frontend Deve|";
+  }
+  80% {
+    content: " frontend Devel|";
+  }
+  81% {
+    content: " frontend Develo|";
+  }
+  82% {
+    content: " frontend Develop|";
+  }
+  83% {
+    content: " frontend Develope|";
+  }
+  84% {
+    content: " frontend Developer|";
+  }
+  85% {
+    content: " frontend Developer|";
+  }
+  86% {
+    content: " frontend Develope|";
+  }
+  87% {
+    content: " frontend Develop|";
+  }
+  88% {
+    content: " frontend Develo|";
+  }
+  89% {
+    content: " frontend Devel|";
+  }
+  90% {
+    content: " frontend Deve|";
+  }
+  91% {
+    content: "frontend Dev|";
+  }
+  92% {
+    content: "frontend De|";
+  }
+  93% {
+    content: "frontend D|";
+  }
+  94% {
+    content: "fronten|";
+  }
+  95% {
+    content: "fronte|";
+  }
+  96% {
+    content: "front|";
+  }
+  97% {
+    content: "front|";
+  }
+  98% {
+    content: "fron|";
+  }
+  99% {
+    content: "fro|";
+  }
+  100% {
+    content: "fr|";
+  }
+  101% {
+    content: "f|";
+  }
+  102% {
+    content: "|";
+  }
+}
+/* end of head section */
+li {
+  list-style: none;
+  font-family: "Segoe UI";
+  color: #4e4e4e;
+}
+.prog-desc {
+  height: 25px;
+}
+.paragrahfs {
+  font-family: "Segoe UI";
+  font-size: 19px;
+  font-weight: 300;
+  color: #656765;
+}
+.h-after{
+  position: relative;
+}
+.h-after::after{
+  content: '';
+  width: 98px;
+  height: 3px;
+  background-color: #0078ff;
+  position: absolute;
+  top: 120%;
+  left: 0;
+
+}
+/* end of section 1 */
+.page-3-head h2 {
+  font-size: 3rem;
+  font-family: "Segoe UI";
+}
+.icon-div {
+  width: 118px;
+  height: 118px;
+  border: 10.5px solid #0078ff;
+  transition: all 0.5s;
+}
+.icon-div i {
+  font-size: 40px;
+}
+.icon-div:hover {
+  background-color: #0078ff;
+  border-color: #cfdae7;
+  color: #ffffff;
+}
+.headin-after{
+  position: relative;
+}
+.navbar{
+  transition: background-color 2s;
+}
+.headin-after::after{
+  content: '';
+  width: 50px;
+  height: 5px;
+  background-color: #0078ff;
+  position: absolute;
+  top: 200%;
+  left: 43%;
+
+}
+/* end of section 2 */
+.sec-3{
+  background-image: url(imgs/post-3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+ background-size: 100% 100%;
+}
+.icn-div{
+  width: 75px;
+  height: 75px;
+  font-size: 30px;
+  border: #cde1f8 9px solid;
+}
+.check-boxes p{
+   font-size: 15px;
+   
+}
+.check-boxes{
+position: relative;
+z-index: 55555;
+
+}
+.sec-3{
+  position: relative;
+}
+.lay-sec-3{
+  background-color: #0078ff;
+  opacity: 80%;
+  position: absolute; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* end of sec 3 */
+.card-body p{
+  font-size: 15px;
+}
+.card-body i{
+  font-size: 25px;
+  color: #0078ff;
+  font-weight: 100;
+}
+.card-icn{
+  width: 30px;
+  height: 30px;
+  border: 1px solid #0078ff;
+  border-radius: 50%;
+}
+.card img{
+  transition: all 1s;
+}
+.card:hover img{
+  scale: 1.3;
+}
+/* end of sec 4 */
+.sec-4{
+  background-image: url(imgs/overlay-bg.jpg);
+  background-size: cover;
+  height: 50vh;
+  margin-top: 50px;
+  background-attachment: fixed;
+}
+/* end of sec 5 */
+.card1{
+  background-color: #ffffff;
+}
+.li-img{
+  width: 35px;
+} 
+.crd-head::after{
+  content: 'travel';
+  background-color: #0078ff;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 4px 15px;
+  position: absolute;
+  bottom: 73%;
+  left: 38%;
+  font-weight: 200;
+  
+}
+.list-group-item{
+  border-radius: 5px;
+  font-size: 15px;
+}
+.card1 li{
+  background-color: #f7f7f7;
+}
+.crd-head-webDesign::after{
+  content: 'web design';
+  background-color: #0078ff;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 4px 15px;
+  position: absolute;
+  bottom: 73%;
+  left: 38%;
+  font-weight: 200;
+}
+/* end of section  */
+.last-sec{
+  background-image: url(imgs/overlay-bg.jpg);
+  background-size: cover;
+  margin-top: 50px;
+  background-attachment: fixed;
+}
+.btn1{
+  background-color: #0078ff;
+  padding: 7px 30px;
+  border-radius: 30px;
+  border: 6px solid #0078ff;
+  font-size: 20px;
+  color: #ffffff;
+  transition: all 1s;
+}
+.btn1:hover{
+   border-color: #cfdae7;
+}
+.last-page-p p{
+  font-family: 'poppins';
+}
+.social-icons{
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  border: 3px solid #0078ff;
+  border-radius: 50%;
+  transition: all .7s;
+}
+.social-icons:hover{
+  background-color: #0078ff;
+  border-color: #9cc1ec;
+  color: white;
+}
